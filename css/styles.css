@@ -4,14 +4,36 @@ body {
 
 .header {
   background-color: #fffbc8;
-  height: 300px;
+  height: 225px;
+}
+
+.logo {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .headtext {
   float: right;
   color: #8b0084;
+  margin-top: 5%;
+  margin-right: 20%;
 }
 
 .footer {
   color: #89cf10;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* Media Queries ------------------------------- */
+
+@media (max-width: 960px) {
+
 }
