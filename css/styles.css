@@ -6,3 +6,7 @@ body {
   background-color: #fffbc8;
   height: 300px;
 }
+
+.headtext {
+  float: right;
+}
