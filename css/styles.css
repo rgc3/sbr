@@ -9,4 +9,9 @@ body {
 
 .headtext {
   float: right;
+  color: #8b0084;
+}
+
+.footer {
+  color: #89cf10;
 }
