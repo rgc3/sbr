@@ -2,6 +2,10 @@ body {
   background-color: #444;
 }
 
+ul {
+  list-style: none;
+}
+
 .header {
   background-color: #fffbc8;
   height: 225px;
@@ -19,8 +23,24 @@ body {
   margin-right: 20%;
 }
 
+.collage {
+  margin-top: 30px;
+}
+
 .footer {
   color: #89cf10;
+  background-color: #555;
+  border-bottom: 20px solid #fffbc8;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fa-facebook-official {
+  float: left;
+}
+
+.fa-envelope-square {
+  float: right;
 }
 
 .clearfix:after {
